@@ -16,9 +16,10 @@ async def imdb(ctx, *, movie_title: str):
         rated = data.get("rated", "Unknown")
         plot = data.get("plot", "Unknown")
         imdburl = data.get("imdburl", "Unknown")
-
+        poster = data.get("poster", "Unknown")
         message = f"```ini\nTitle: [ {title} ]\nYear: [ {year} ]\nRuntime: [ {runtime} ]\nGenres: [ {genres} ]\nLanguages: [ {languages} ]\nRated: [ {rated} ]\nIMDB URL [ {imdburl} ]\nPlot: [ {plot} ]```"
     else:
         message = "No movie found with that title."
 
+    await ctx.send(poster)
     await ctx.send(message)
