@@ -5,6 +5,9 @@
 Welcome to the Custom Nighty Selfbot Scripts repository! These custom scripts are designed for use with the Nighty.one Selfbot. With those scripts, you can enhance your Discord Personal experience! [nighty.one](https://nighty.one).
 
 ## Installation
+Download the shop script from the root of the repository.
+
+Place it in `%appdata%\Nighty Selfbot\data\scripts` and reload Nighty.
 
 To download Nighty.one Custom scripts, simply use the following command:
 
@@ -29,7 +32,7 @@ For more detailed instructions on using Nighty scripts, please Conctact me on di
 If you have a custom script you'd like to submit, follow these steps:
 
 1. Code the script using `discord.py` or `discord.py self`.
-2. Send me a DM on Discord @Ohhq.
+2. Send me a DM on Discord @MYHM.Space.
 3. Wait for my response. :)
 
 ## Support
@@ -39,7 +42,7 @@ For any questions, issues, or support regarding Nighty.one  or Any scripts, plea
 ## Special thanks to...
 
 Everyone who makes scripts. To every user who use Nighty.one. But also you! :)
-
+Originally by Ohhq, repo forked and more added by MYHM.
 ## Copyright.
 
     *----------------------------------------------------------------*
