@@ -1,5 +1,5 @@
 @bot.command()
-async def meteo(ctx, location: str, days: int = 1):
+async def weather(ctx, location: str, days: int = 1):
     await ctx.message.delete()
     try:
         response = requests.get(f"http://api.weatherapi.com/v1/forecast.json?key=8214f5a2223c42a084e233902240603&q={location}&days={days}")
